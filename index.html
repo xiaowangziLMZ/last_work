@@ -1,0 +1,176 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="top">
+        <span class="search">
+            <input type="text">
+            <span>搜索</span>
+        </span>
+        <span class="login">登录</span>
+        <span class="login">注册</span>
+    </div>
+    <div class="content">
+        <div class="nav">
+            <div class="logo"><img src="./img/logo.png"></div>
+            <div class="nav-item active-item">首页</div>
+            <div class="nav-item">旅游经典</div>
+            <div class="nav-item">旅游路线</div>
+            <div class="nav-item">旅游图片</div>
+            <div class="nav-item">旅游咨询</div>
+            <div class="nav-item">关于我们</div>
+        </div>
+        <div id="swiper">
+        </div>
+        <div class="ul-list">
+            <ul class="ul-item">
+                <li>
+                    <span class="item-frist">关于旅游路线</span>
+                    <span>更多</span>
+                </li>
+                <li>
+                    <span>北京故宫颐和园天台一日游</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>内蒙古草原3日游</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>大西北敦煌青海湖7日游</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>西藏布达拉宫直飞7日游</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>成都大熊猫乐山大佛3日游</span>
+                    <span>04-20</span>
+                </li>
+                <li>
+                    <span>青岛日照威海海滩啤酒节5日游</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>天津之眼意大利风情区1日游</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>河北师范大学1日游</span>
+                    <span>06-10</span>
+                </li>
+            </ul>
+            <ul class="ul-item">
+                <li>
+                    <span class="item-frist">旅游文章</span>
+                    <span>更多</span>
+                </li>
+                <li>
+                    <span>青甘大环线纪实攻略</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>呼伦贝尔大草原必打卡</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>阳光正好，打卡张掖七彩丹霞</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>夏天来时，总是梦想去远方</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>六天时间，可以在大西北遇见什么</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>茶卡盐湖最新攻略</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>江苏最值得去的自驾公路</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>河北师范大学旅游攻略，找我免费蹭吃</span>
+                    <span>06-10</span>
+                </li>
+            </ul>
+            <ul class="ul-item">
+                <li>
+                    <span class="item-frist">旅游咨询</span>
+                    <span>更多</span>
+                </li>
+                <li>
+                    <span>北京夏天有哪里避暑的好地方？</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>大西北换线路程怎么规划？</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>一个人出去旅游，需要注意什么</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>去内蒙古最好什么时候去？</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>青岛几月份可以下海，下海打鱼的那种</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>一个人准备去城固，有没有小哥哥小姐姐一起？</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>我栓姐也很漂酿，我说的是真的</span>
+                    <span>06-10</span>
+                </li>
+                <li>
+                    <span>河北师范大学软件学院老师有多beautiful</span>
+                    <span>06-10</span>
+                </li>
+            </ul>
+        </div>
+        <div class="img-list">
+            <img src="image/a1.jpeg">
+            <img src="image/a2.jpg">
+            <img src="image/a3.jpg">
+            <img src="image/a4.jpg">
+            <img src="image/a5.jpg">
+            <img src="image/a6.jpg">
+        </div>
+        <div class="footer">
+            <p>Copyright © 1999-2018 Wy. All rights reserved.</p>
+        </div>
+    </div>
+    <div class="login-dialog">
+        <span class="close">X</span>
+        <div class="form-item">
+            <span>用户名</span>
+            <input id="user" type="text"/>
+        </div>
+        <div class="form-item">
+            <span>密码</span>
+            <input id="password" type="password"/>
+        </div>
+        <div class="btn-box">
+            <div class="btn">登录</div>
+            <div class="btn">注册</div>
+        </div>
+    </div>
+</body>
+</html>
